@@ -1,0 +1,22 @@
+{
+    "Bootstrap 4 starter Template": {
+        "prefix": "!bs4",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html>",
+            "<head>",
+                "<title>${1:By Frdrcpeter}</title>",
+                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+                "<!-- Bootstrap -->",
+                "<link href=\"css/bootstrap.min.css\" rel=\"stylesheet\" media=\"screen\">",
+            "</head>",
+            "<body>",
+               "$0",
+                "<script src=\"https://code.jquery.com/jquery.js\"></script>",
+                "<script src=\"js/bootstrap.min.js\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Create Bootstrap 4 starter template"
+    }
+}
